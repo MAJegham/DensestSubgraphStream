@@ -6,11 +6,13 @@ The algorithm retrieves an approximation of the densest subgraph in a graph defi
 
 ### Algorithm description:
 
-Input : * file containing the graph (G) description_ each line of the file contains an edge in the format int,int
+Input : 
 
-	* approximation parameter epsilon
+	file containing the graph (G) description_ each line of the file contains an edge in the format int,int
 
-Output: * file containing the densest graph approximation
+	approximation parameter epsilon
+
+Output:  file containing the densest graph approximation
 
 Definitions:
 
@@ -21,6 +23,7 @@ Definitions:
 	* degree of a node is the number of edges incident to that node
 
 Algo  : 
+
 	* H = G
 
 	* while ( G contains at least one edge )
